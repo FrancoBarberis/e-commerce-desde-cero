@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #4b33a8;
+    --clr-main: #3abe29;
     --clr-main-light: #785ce9;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -145,12 +145,16 @@ main {
 .contenedor-productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
+
+
 
 .producto-imagen {
     max-width: 100%;
+    height: 10rem;
     border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 .producto-detalles {
@@ -163,6 +167,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: .25rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .producto-titulo {
