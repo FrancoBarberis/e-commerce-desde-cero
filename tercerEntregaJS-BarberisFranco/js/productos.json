@@ -51,7 +51,7 @@
     },
     {
         "id": "pedal-01",
-        "titulo": "Pedal VOX Wah-Wah",
+        "titulo": "Pedal Wah-Wah",
         "imagen": "./img/camisetas/01.jpg",
         "categoria": {
             "nombre": "Camisetas",
